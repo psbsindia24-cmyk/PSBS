@@ -1,0 +1,162 @@
+.
+├── .gitignore
+├── client
+│   ├── .env
+│   ├── .env.production
+│   ├── .gitignore
+│   ├── README.md
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── public
+│   │   └── images
+│   │       ├── BRIVAN.svg
+│   │       ├── MOHIT1.jpg
+│   │       ├── Rohit.jpeg
+│   │       ├── Rohit2.jpeg
+│   │       ├── affinityx.jpeg
+│   │       ├── ankit.png
+│   │       ├── aout.png
+│   │       ├── aout2.png
+│   │       ├── aqulite.jpeg
+│   │       ├── ashoksikka.jpeg
+│   │       ├── ashoksikka.png
+│   │       ├── atul4.png
+│   │       ├── aumyaa.png
+│   │       ├── aviol.jpeg
+│   │       ├── bata.jpeg
+│   │       ├── briva.jpeg
+│   │       ├── brivan2.jpeg
+│   │       ├── chinaclub.jpeg
+│   │       ├── dineshbhai.jpeg
+│   │       ├── fybros.jpeg
+│   │       ├── gaiendra.jpeg
+│   │       ├── gainedra2.jpeg
+│   │       ├── gawar.jpeg
+│   │       ├── gianendraassociate.jpg
+│   │       ├── gianendraassociate2.jpg
+│   │       ├── gkagg.jpeg
+│   │       ├── gkagg2.jpeg
+│   │       ├── hero1.jpeg
+│   │       ├── ikia.jpeg
+│   │       ├── intergloble.jpeg
+│   │       ├── kimbal.jpg
+│   │       ├── mamapay.jpeg
+│   │       ├── mohit2.jpeg
+│   │       ├── niraj.jpeg
+│   │       ├── oxford.jpeg
+│   │       ├── pdfs
+│   │       │   ├── Cash_Flow_Crisis_Despite_Good_Sales.pdf
+│   │       │   └── Continous Controls Assurance Article Ver 2.pdf
+│   │       ├── psbs-company-profile.pdf
+│   │       ├── qrcodes
+│   │       │   ├── ankit-vcard-qr.jpeg
+│   │       │   └── mohit-vcard-qr.jpeg
+│   │       ├── rakesh.jpeg
+│   │       ├── ralco.jpeg
+│   │       ├── relaxo.jpeg
+│   │       ├── riskberg2.jpg
+│   │       ├── sandeep4.png
+│   │       ├── sarc.png
+│   │       ├── sarc2.jpeg
+│   │       ├── sarc22.jpeg
+│   │       ├── sarc23.jpg
+│   │       ├── sarc24.jpg
+│   │       ├── sarc25.jpg
+│   │       ├── satyadev.jpeg
+│   │       ├── service21.jpg
+│   │       ├── services2.jpg
+│   │       ├── services22.jpg
+│   │       ├── services23.jpg
+│   │       ├── services3.jpg
+│   │       ├── services4.jpg
+│   │       ├── services5.jpg
+│   │       ├── services6.jpg
+│   │       ├── shareindia.png
+│   │       ├── shilpisikka.png
+│   │       ├── simplc.jpeg
+│   │       ├── skh.jpeg
+│   │       ├── slides2.jpg
+│   │       ├── slides3.jpg
+│   │       ├── slides4.jpg
+│   │       ├── tasc.jpeg
+│   │       ├── tcl.jpeg
+│   │       ├── testimonial1.jpeg
+│   │       ├── vikas.png
+│   │       ├── vineet.jpeg
+│   │       ├── yuktii.png
+│   │       └── zingbus.jpeg
+│   ├── src
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── Data
+│   │   │   └── insightsData.js
+│   │   ├── api
+│   │   │   ├── axios.js
+│   │   │   ├── contactApi.js
+│   │   │   └── insightApi.js
+│   │   ├── assets
+│   │   │   ├── assurance-bg.jpg
+│   │   │   ├── business-bg.jpg
+│   │   │   ├── image001.png
+│   │   │   ├── logo.jpeg
+│   │   │   ├── logo1.png
+│   │   │   └── react.svg
+│   │   ├── components
+│   │   │   ├── BlogCard.jsx
+│   │   │   ├── ContactForm.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── InsightCard.jsx
+│   │   │   ├── ServiceCard.jsx
+│   │   │   ├── Tabs.jsx
+│   │   │   └── TestimonialCard.jsx
+│   │   ├── context
+│   │   │   └── ThemeContext.jsx
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   ├── pages
+│   │   │   ├── AdminInsight.jsx
+│   │   │   ├── Careers.jsx
+│   │   │   ├── Clients.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Services.jsx
+│   │   │   ├── Team.jsx
+│   │   │   └── Thought.jsx
+│   │   └── styles.css
+│   └── vite.config.js
+├── package.json
+├── project-structure.txt
+└── server
+    ├── .env
+    ├── .gitignore
+    ├── app.js
+    ├── config
+    │   ├── db.js
+    │   ├── gridfs.js
+    │   └── mail.js
+    ├── controllers
+    │   ├── contact.controller.js
+    │   ├── insight.controller.js
+    │   └── vcard.controller.js
+    ├── middlewares
+    │   └── upload.middleware.js
+    ├── models
+    │   ├── Employee.js
+    │   └── Insight.js
+    ├── package.json
+    ├── routes
+    │   ├── contact.routes.js
+    │   ├── insight.routes.js
+    │   └── vcard.routes.js
+    ├── server.js
+    └── services
+        ├── file.service.js
+        ├── insight.service.js
+        ├── mail.service.js
+        └── vcard.service.js
+
+20 directories, 140 files

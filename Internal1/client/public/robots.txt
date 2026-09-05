@@ -1,0 +1,9 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /login
+Disallow: /dashboard
+Disallow: /admin-insight
+
+Sitemap: https://psbsindia.com/sitemap.xml

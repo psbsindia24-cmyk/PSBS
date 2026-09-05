@@ -1,0 +1,15 @@
+{
+  "name": "psbs",
+  "private": true,
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently -n SERVER,CLIENT -c blue,green \"npm:server\" \"npm:client\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "dependencies": {
+    "react-helmet-async": "^3.0.0"
+  }
+}
